@@ -57,16 +57,6 @@ describe 'selenium', :type => :class do
         'timeout'     => p[:download_timeout],
         'execuser'    => p[:user],
       })
-      should contain_logrotate__rule('selenium').with({
-        :path          => "#{p[:install_root]}/log",
-        :rotate_every  => 'weekly',
-        :missingok     => true,
-        :rotate        => 4,
-        :compress      => true,
-        :delaycompress => true,
-        :copytruncate  => true,
-        :minsize       => '100k',
-      })
     end
   end
 

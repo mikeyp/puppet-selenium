@@ -1,8 +1,6 @@
 Puppet selenium Module
 ======================
 
-[![Build Status](https://travis-ci.org/jhoblitt/puppet-selenium.png)](https://travis-ci.org/jhoblitt/puppet-selenium)
-
 #### Table of Contents
 
 1. [Overview](#overview)
@@ -386,4 +384,3 @@ See Also
  * [`puppetlabs-java`](https://github.com/puppetlabs/puppetlabs-java)
  * [`p0deje/display`](https://github.com/p0deje/puppet-display)
  * [`maestrodev/wget`](https://github.com/maestrodev/puppet-wget)
- * [`rodjek/logrotate`](https://github.com/rodjek/puppet-logrotate)
